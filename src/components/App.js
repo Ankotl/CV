@@ -5,7 +5,7 @@ import { UserContext } from "../context/userContext";
 import Profile from "./Profile";
 
 export default function App() {
-  const [user, setUser] = useState({
+  const [user] = useState({
     name: "Антон",
     surname: "Котляков",
     avatar:
@@ -25,7 +25,7 @@ export default function App() {
             p: { xl: "44px 32px", md: "28px 25px", xs: "20px 14px" },
             maxWidth: "1180px",
             m: "auto",
-            backgroundColor: "#FFFFFF",
+            backgroundColor: "#FFF",
           }}
         >
           <Profile />
