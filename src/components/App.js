@@ -5,6 +5,9 @@ import { UserContext } from "../context/userContext";
 import Profile from "./Profile";
 import Technologies from "./Technologies";
 import VettedSkills from "./VettedSkills";
+import Experience from "./Experionce";
+import Footer from "./Footer";
+import Education from "./Education";
 
 export default function App() {
   const [user] = useState({
@@ -34,6 +37,9 @@ export default function App() {
           <Divider />
           <Technologies />
           <VettedSkills />
+          <Experience />
+          <Education />
+          <Footer />
         </Box>
       </Box>
     </UserContext.Provider>

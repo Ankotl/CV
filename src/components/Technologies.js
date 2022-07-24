@@ -19,12 +19,16 @@ const Technologies = () => {
         variant="h4"
         sx={{
           fontSize: "20px",
-          fontFamily: "Cabin",
           mb: { xs: "14px", md: 0 },
+          width: { xl: "230px", md: "195px", xs: "188px" },
         }}
       >
-        {" "}
-        <img src={techSvg} alt="Icon" style={{ marginRight: "6px" }} />
+        <Box
+          component="img"
+          src={techSvg}
+          alt="Icon"
+          sx={{ marginRight: "6px" }}
+        />
         Technologies stack
       </Typography>
       <Box sx={{ flex: 1 }}>
