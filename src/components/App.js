@@ -3,6 +3,8 @@ import { Box, Divider } from "@mui/material";
 
 import { UserContext } from "../context/userContext";
 import Profile from "./Profile";
+import Technologies from "./Technologies";
+import VettedSkills from "./VettedSkills";
 
 export default function App() {
   const [user] = useState({
@@ -30,6 +32,8 @@ export default function App() {
         >
           <Profile />
           <Divider />
+          <Technologies />
+          <VettedSkills />
         </Box>
       </Box>
     </UserContext.Provider>

@@ -13,7 +13,7 @@ const Profile = () => {
   return (
     <Grid
       container
-      direction="row"
+      direction={{ md: "row", xs: "column" }}
       alignItems="center"
       sx={{ pb: { xs: "28px", md: "32px" }, position: "relative" }}
       spacing={{ xs: "2", md: "3" }}
