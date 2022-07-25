@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/CV/static/css/main.be373425.css",
+    "main.js": "/CV/static/js/main.e2be3a57.js",
+    "static/media/Aproved.svg": "/CV/static/media/Aproved.8b3c491104d60f11a9e15cd86a983b79.svg",
+    "static/media/React.svg": "/CV/static/media/React.dca48ba0b7a6002366255d45a101ed7e.svg",
+    "static/media/Tech.svg": "/CV/static/media/Tech.4e78ce6241f8ecd268a1f4a0a805ced1.svg",
+    "index.html": "/CV/index.html",
+    "static/media/VettedSkills.svg": "/CV/static/media/VettedSkills.9fa274fa45bbdee877e80f9ed9568117.svg",
+    "main.be373425.css.map": "/CV/static/css/main.be373425.css.map",
+    "main.e2be3a57.js.map": "/CV/static/js/main.e2be3a57.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be373425.css",
+    "static/js/main.e2be3a57.js"
+  ]
+}
